@@ -34,7 +34,7 @@ spec:
             medium: Memory
       containers:
         - name: flux
-          image: quay.io/weaveworks/flux:master-5f0e9292
+          image: docker.io/fluxcd/flux:1.18.0
           imagePullPolicy: IfNotPresent
           resources:
             requests:
