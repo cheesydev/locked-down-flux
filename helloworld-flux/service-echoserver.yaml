@@ -6,6 +6,7 @@ metadata:
   namespace: helloworld
   labels:
     app: echoserver
+    component: echoserver
 spec:
   type: ClusterIP
   ports:
