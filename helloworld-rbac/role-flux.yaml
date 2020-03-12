@@ -34,6 +34,7 @@ rules:
     verbs:
       - get
       - patch
+      - delete
   - apiGroups:
       - apps
     resources:
@@ -43,6 +44,7 @@ rules:
     verbs:
       - get
       - patch
+      - delete
   - apiGroups:
       - networking.k8s.io
     resources:
@@ -52,6 +54,7 @@ rules:
     verbs:
       - get
       - patch
+      - delete
 
   # get namespace or Flux will mark it as inaccessible
   - apiGroups:
