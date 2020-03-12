@@ -53,7 +53,6 @@ spec:
             - --memcached-service=
             - --ssh-keygen-dir=/var/fluxd/keygen
             - --git-url=git@github.com:zeeZ/locked-down-flux.git
-            - --git-branch=deploy
             - --git-path=helloworld-flux/
             - --git-ci-skip
             - --k8s-namespace-whitelist=helloworld
